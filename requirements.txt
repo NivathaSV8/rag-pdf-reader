@@ -1,0 +1,9 @@
+langchain
+langchain-community
+langchain-openai
+pypdf
+pandas
+numpy
+streamlit
+python-dotenv
+qdrant-client
