@@ -22,7 +22,12 @@ OPENAI_API_KEY=your_openai_api_key
 
 ## Execution
 
-1. To run the app
+1. Create docker image
 ```
-streamlit run data_extraction_llm.py
+$ docker build -t rag-pdf-reader .
+```
+
+2. Run the application
+```
+$ docker run -p 8501:8501 rag-pdf-reader
 ```

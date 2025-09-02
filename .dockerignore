@@ -1,0 +1,9 @@
+**/.git
+**/.DS_Store
+**/.vscode
+**/.ipynb_checkpoints
+
+## Environment normalization:
+/db/*
+/venv/*
+/data/*
